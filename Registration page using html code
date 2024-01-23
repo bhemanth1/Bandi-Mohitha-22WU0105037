@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION FORM</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div class="bgimg">
+    <a><img src="https://res.cloudinary.com/dulnauqqc/image/upload/v1705731182/vvvv_e2uwmo.png"
+    width="500"
+    height="1590"></a>
+  </div>
+        <h1 class="my-class h1">REGISTRATION FORM</h1>
+        <form class="data">
+          <label for="fname">First Name:</label><br>
+          <input type="text" id="fname" name="fname"><br>
+          <br>
+          <label for="lname">Last Name:</label><br>
+          <input type="text" id="lname" name="lname"><br>
+          <br>
+          <label for="uname">User Name:</label><br>
+          <input type="text" id="uname" name="uname"><br>
+          <br>
+          <label for="pwd">Password:</label><br>
+          <input type="password" id="pwd" name="pwd"><br>
+          <br>
+          <label for="cpwd">Confirm Password:</label><br>
+          <input type="password" id="cpwd" name="cpwd"><br>
+          <br>
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email"><br>
+          <br>
+          <label for="mobile">Mobile:</label><br>
+          <input type="tel" id="mobile" name="mobile"><br>
+          <br>
+          <label for="gender">Gender:</label><br>
+          <input type="radio" id="male" name="gender" value="male" required>
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="female" required>
+          <label for="female">Female</label><br>
+          <br>
+          <label for="dob">DOB:</label><br>
+          <br>
+          <input type="date" id="dob" name="dob"><br>
+          <br>
+          <label for="nationality">Nationality:</label><br>
+          <select id="nationality" name="nationality">
+            <br>
+            <option value="indian">Indian</option>
+            <option value="others">Others</option>
+          </select><br>
+          <br>
+          <label for="address">Address:</label><br>
+          <textarea id="address" name="address"></textarea><br>
+          <br>
+          <label for="course">Course:</label><br>
+          <input type="text" id="course" name="course"><br>
+          <br>
+          <input type="submit" value="Register">
+        </form>
+      </div>
+</body>
+</html>
