@@ -1,0 +1,95 @@
+.bgimg{
+    position: absolute;
+    z-index: -1;
+    background-color: aquamarine;
+  }
+  
+  .text {
+    position: relative;
+    z-index: 1;
+  }
+body{
+    background-color: lavenderblush;
+    padding: 400px;
+    padding-left: 500px;
+    padding-right: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+my-class h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="date"], input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 10px solid #ddd;
+    border-radius: 70;
+    box-sizing:content-box;
+    resize: vertical;
+  }
+  .my-class {
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Rubik', Doodle;
+    font-size: 40px;
+    font-style: italic;
+   
+  }
+
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  .my-class label {
+    display:grid;
+    margin-bottom: 5px;
+  }
+  
+  .data{
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
